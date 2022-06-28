@@ -1,5 +1,6 @@
 # CLUS-EVPN
-## NSO EVPN project for Cisco Live US 2017, updated to work with latest NSO 5.7.x images & NEDs
+## NSO EVPN project for Cisco Live US 2017
+## updated to work with latest NSO 5.7.x images & NEDs
 
 This Cisco NSO project contains the following packages:
 - EVPN Package
