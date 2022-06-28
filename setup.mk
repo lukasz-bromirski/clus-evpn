@@ -2,8 +2,8 @@
 
 PACKAGES = resource-manager vxlan evpn
 
-NETWORK = create-network packages/ncs-4.7.1-cisco-nx-5.7.3.tar.gz 3 LFND-  \
-          create-network packages/ncs-4.7.1-cisco-nx-5.7.3.tar.gz 2 BRLFND- 
+NETWORK = create-network packages/ncs-5.7.3-cisco-nx.5.22.13.tar.gz 3 LFND-  \
+          create-network packages/ncs-5.7.3-cisco-nx.5.22.13.tar.gz 2 BRLFND-
 
 .PHONY: netsim netsim-clean netsim-start netsim-stop
 netsim:
