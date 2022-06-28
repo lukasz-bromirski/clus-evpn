@@ -1,4 +1,5 @@
-# CLUS-EVPN - NSO EVPN project for Cisco Live US 2017
+# CLUS-EVPN
+## NSO EVPN project for Cisco Live US 2017, updated to work with latest NSO 5.7.x images & NEDs
 
 This Cisco NSO project contains the following packages:
 - EVPN Package
@@ -20,11 +21,10 @@ This Cisco NSO project contains the following packages:
         - bridged-topology - VXLAN Layer-2 topology
 
 The following additional packages are required:
-- Cisco NX-OS NED - ncs-4.6.1-cisco-nx-5.2.tar.gz
-- Cisco resource-manager - ncs-4.6-resource-manager-3.3.0.tar.gz
+- Cisco NX-OS NED - ncs-5.7.3-cisco-nx-5.22.13.tar.gz
+- Cisco resource-manager - ncs-5.7.4-resource-manager-3.5.7.tar.gz
 
-
-Run the following commands after a new install (or after a make clean):
+Run the following commands after a new install (or after a make clean) *in the active ncs directory*:
 
     $ make all                              -- initialize netsim devices and ncs cdb
     $ make start                            -- start netsim testbed and ncs
@@ -39,7 +39,7 @@ Before pushing the project to git, remember to clean temporary data:
     $ make clean
 
 Recommended environment:
-- NSO 4.6.2
+- NSO 5.7.x
 - Python 3.6.6
 
 This has been tested with Python 2.7.14 and 3.6.6.
